@@ -138,6 +138,4 @@ void sendMessage(){
     }
    
     http.end();
-
-    M5.Lcd.print("Please push button A \n");
 }
