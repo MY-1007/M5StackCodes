@@ -6,10 +6,10 @@
 const String url = "https://script.google.com/macros/s/AKfycbxuRn6uF2QJvW7nb3byPW16VgzrFAERuxJRlHJp2wP2rf0rLHZDIAwJVwqt_AFmlKhZ/exec";
 const String published_url = "https://script.google.com/macros/s/AKfycbwDlZ59wp5bnSWtmeIS6Igc1Lne1db_fYaqEoBwtwBal7QHoctfhg99m93qxpsIEwNl/exec";
 // Wi-FiのSSID
-char *ssid = "MYT";
+char *ssid = "***";// write your ssid
 
 // Wi-Fiのパスワード
-char *password = "0558a354bd93";
+char *password = "***";// write your password
 
 //ArduinoJson
 const size_t capacity = JSON_OBJECT_SIZE(3) + 2*JSON_OBJECT_SIZE(10) + 170;
