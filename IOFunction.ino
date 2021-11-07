@@ -47,7 +47,7 @@ void loop() {
   // LCDをいったんクリア
   M5.Lcd.fillScreen(WHITE);
   useData = getData(url);
-  Serial.println(useData["data1"].as<String>());
+  Serial.println(useData["wtime"].as<int>());
   sendMessage();
   
   // 待機時間
